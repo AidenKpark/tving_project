@@ -1,0 +1,49 @@
+.navigation {
+  width: 100vw;
+  height: 65px;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.8309917717) 12%, rgba(0, 0, 0, 0.1979385504) 100%);
+  display: flex;
+  justify-content: space-around;
+}
+.navigation .leftSide {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.navigation .leftSide .logoImg {
+  height: 65px;
+  width: 120px;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.navigation .leftSide .btns {
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: transparent;
+  border: none;
+  color: rgb(225, 225, 225);
+  font-size: 15px;
+  font-weight: 300;
+}
+.navigation .leftSide .btns:hover {
+  cursor: pointer;
+  color: white;
+}
+.navigation .rightSide {
+  width: 30%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.navigation .rightSide i {
+  font-size: 25px;
+  color: rgb(225, 225, 225);
+}
+.navigation .rightSide i:hover {
+  cursor: pointer;
+  color: white;
+}/*# sourceMappingURL=header.css.map */
